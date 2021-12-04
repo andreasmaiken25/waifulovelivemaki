@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+
+body {
+  background-color: #ffc4e1;
+}
+
+.jarak {
+  padding-top: 2rem;
+}
+
+.carousel1 {
+  padding-top: 2rem;
+}
+
+.enter {
+  padding-top: 7rem;
+}
+
+.enter2 {
+  padding-top: 10rem;
+}
+.jarak123 {
+  padding: 1rem;
+}
+
+.jarak321 {
+  padding-bottom: 10px;
+}
+
+.jarak55 {
+  padding: 3rem;
+}
+
+.atas {
+  margin-top: -15px;
+}
+
+.padding {
+  padding-top: 12rem;
+}
+
+.tulisan p {
+  font-size: 15px;
+  text-shadow: 1px;
+}
+
+/* Card */
+.blog-posts {
+  justify-content: center;
+}
+
+.post {
+  width: min(600px, 100%);
+}
+
+.post-img {
+  width: 100%;
+  border-radius: 6px;
+  transition: 0.3s linear;
+}
+
+.post-content {
+  background-color: #ffffff;
+  margin: 0 20px;
+  padding: 30px;
+  border-radius: 6px;
+  transform: translateY(-60px);
+  transition: 0.3s linear;
+}
+
+.post-content h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.post-content ul li {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.post:hover .post-img {
+  transform: translateY(20px);
+}
+
+.post:hover .post-content {
+  transform: translateY(-80px);
+}
+
+.warna a {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin: 5px;
+}
+
+.terbang {
+  padding: 10px;
+}
+
+.back {
+  background-color: #cc3554;
+  padding: 10px;
+}
+
+.galerry-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
+
+/* Music */
+.player {
+  position: relative;
+  width: 300px;
+  background: #f1f3f4;
+  box-shadow: 0 50px 80px rgb(0, 0, 0, 0.25);
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.player .imgBx {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.player .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.player audio {
+  width: 100%;
+  outline: none;
+}
+
+/* Admin */
+.profilecard {
+  width: 400px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  align-items: center;
+  margin: auto;
+}
+
+.pic {
+  display: inline-block;
+  padding: 8px;
+  background: linear-gradient(130deg, #71b9ff, #e66767);
+  margin: auto;
+  border-radius: 50%;
+  background-size: 200% 200%;
+  animation: animated-gradien 2s linear infinite;
+}
+
+@keyframes animated-gradien {
+  25% {
+    background-position: left bottom;
+  }
+
+  50% {
+    background-position: right bottom;
+  }
+
+  75% {
+    background-position: right top;
+  }
+
+  100% {
+    background-position: left top;
+  }
+}
+
+.pic img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.name {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 600px;
+  margin: 10px 0;
+  font-family: "Shippori Antique", sans-serif;
+}
+.decs {
+  font-size: 18px;
+  color: #000000;
+  padding-top: -20px;
+}
+/* Dekstop Version */
+@media screen and (min-width: 1200px) {
+  .blog-posts {
+    width: min(1200px 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+  }
+  .post {
+    width: calc(33% - 10px);
+    overflow: hidden;
+  }
+}
