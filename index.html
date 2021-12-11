@@ -47,8 +47,9 @@
     <title>Love Live | Andreas</title>
   </head>
   <body>
+
     <!-- Navbar -->
-    <nav class="navbar navbar-dark shadow-sm ms-auto fixed-top" style="background-color: #cc3554">
+    <nav class="navbar navbar-dark shadow-sm fixed-top" style="background-color: #cc3554">
       <div class="container">
         <span class="navbar-brand mb-0 h1">Love Live | Andreas</span>
       </div>
@@ -574,8 +575,40 @@
     </div>
     <!-- Akhir Artikel 6 -->
 
+    <!-- Dance Cover -->
+    <div class="container dance">
+      <h2 class="fw-bold fw-bold">Dance Cover Love Live</h2>
+      <p>Setelah mengetahui lagu Love Live, saya akan memberi beberapa dance cover dari MV anime Love Live</p>
+      <div class="jarak321"></div>
+
+      <!-- Subcribe -->
+      <div id="video">
+        <div class="g-ytsubscribe" data-channelid="UCzfoobOrOTcgQk3w8s0CS5A" data-layout="full" data-count="default"></div>
+        <script src="https://apis.google.com/js/platform.js"></script>
+      </div>
+      <div class="video-list"></div>
+      <!-- Subcribe -->
+
+      <!-- Video -->
+      <section id="dance-cover">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/38WwwT3xRm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video-list-yt"></div>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z_eK7T9yfQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video-list-yt"></div>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/La0GjhEtPGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video-list-yt"></div>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/goJDjUJ6hGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+
+      
+    </div>
+    <!-- Akhir Dance Cover -->
+
     <!-- Gallery -->
-    <section id="gallery">\
+    <section id="gallery">
       <div class="container">
         <div class="row enter2 text-center">
           <div class="col">
@@ -700,6 +733,21 @@
       <p class="text-center text-light tulisan"><i class="bi bi-star-fill"></i>  Created by Andreas  <i class="bi bi-star-fill"></i></p>
     </footer>
     <!-- Footer -->
+
+    <!-- Popup Window -->
+    <div id="bg-modal">
+      <div class="close"><a class="text-light" onclick="tutuppopup();" style="text-decoration: none;">Close (X)</a></div>
+      <img class="modal-content img-thumbnail" src="img/popup/popupwindow1.jpg" alt="Welcome to Andreas' Website">
+    </div>
+    <!-- Akhir Popup Window -->
+
+    <!-- Java script Popup Window -->
+    <script>
+      function tutuppopup() {
+        document.getElementById("bg-modal").style.display = "none";
+      }
+    </script>
+    <!-- Akhir Java script Popup Window -->
 
     <!-- Script AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
